@@ -1,0 +1,80 @@
+.app_start {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.app_logged {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    bottom: 0;
+    gap: 10px;
+    position: fixed;
+    text-align: center;
+    align-items: baseline;
+    background-color: azure;
+    border-top: 1px solid #6e7491;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100vw;
+}
+
+.chatRoom {
+    max-height: 81vh;
+    overflow-y: scroll;
+}
+
+.chat_ul {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.message_li {
+    margin-left: 15px;
+    list-style: none;
+    padding: 15px 10px 15px 10px;
+    border: solid 0, 02px black;
+    width: fit-content;
+    border-radius: 1rem 1.5rem 1.25rem;
+    background-color: rgba(159, 220, 159, 0.536);
+    box-shadow: 12px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.input {
+    margin-top: 10px;
+    width: 86vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 0.02em black solid;
+}
+
+.signout_button {
+    position: fixed;
+    right: 20px;
+}
+
+.logo {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.signin_button {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+}
