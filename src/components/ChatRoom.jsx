@@ -6,7 +6,7 @@ import {
   orderBy,
 
 } from 'firebase/firestore';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import style from './chatRoom.module.css';
 import Button from '@mui/material/Button';
@@ -16,7 +16,7 @@ import TextField from '@mui/material/TextField';
 const ChatRoom = ({ auth }) => {
   const firestore = getFirestore();
   const messageRef = collection(firestore, 'messages');
-
+  const bottom = useRef();
 
   const [messages] = useCollectionData(
     query(messageRef, orderBy('createdAt', 'asc'))
@@ -40,6 +40,7 @@ const ChatRoom = ({ auth }) => {
         uid,
       });
       setMessage('');
+      bottom.current.scrollIntoView({ behavior: 'smooth' });
     } else {
       console.log('The message is empty');
     }
@@ -54,7 +55,9 @@ const ChatRoom = ({ auth }) => {
             <li key={key} className={style.message_li}>
               {message.name}: {message.message}
             </li>
+            
           ))}
+              <span ref={bottom}></span>
       </ul>
       </div>
       <form action="submit" className={style.form} onSubmit={onSubmit}>
