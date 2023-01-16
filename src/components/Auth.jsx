@@ -9,6 +9,7 @@ const authorization = () => {
       const token = credential.accessToken;
 
       const user = result.user;
+      return {user, token}
  
     })
     .catch(error => {
