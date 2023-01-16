@@ -4,7 +4,7 @@ import {
   addDoc,
   query,
   orderBy,
-  limit,
+
 } from 'firebase/firestore';
 import { useState } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
