@@ -52,8 +52,8 @@ const ChatRoom = ({ auth }) => {
       <ul className={style.chat_ul}>
         {messages &&
           messages.map((message, key) => (
-            <li key={key} className={style.message_li}>
-              {message.name}: {message.message}
+            <li key={key} className={message.uid === auth.currentUser.uid ? style.message_li_user : style.message_li} >
+              {message.uid !== auth.currentUser.uid && message.name + ":"} {message.message}
             </li>
             
           ))}
