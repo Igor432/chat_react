@@ -83,7 +83,7 @@ const ChatRoom = ({ auth }) => {
           sx={{
             width: 130,
             height: 50,
-          
+            backgroundColor: '#3f87a6'
           }} 
         >
           Send
