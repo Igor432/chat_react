@@ -152,6 +152,7 @@
     .form {
         padding-top: 0px;
         gap: 5px;
+        align-items: center;
     }
 }
 
