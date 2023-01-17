@@ -22,7 +22,7 @@ export const App = () => {
       width: 120,
       height: 40,
       color: 'white',
-    backgroundColor: '#3f87a6'}} variant="contained" onClick={SignInButton}>Sign in</Button>
+      backgroundColor: '#2B4F61'}} variant="contained" onClick={SignInButton}>Sign in</Button>
       }
       <SignOutButton />
       </header>
@@ -43,7 +43,7 @@ function SignOutButton() {
     auth.currentUser && <Button variant="contained" sx={{
       width: 120,
       height: 40,
-      backgroundColor: '#3f87a6'
+      backgroundColor: '#2B4F61'
     }} className={style.signout_button} onClick={() => auth.signOut()}>Sign-out</Button>
   );
 }
