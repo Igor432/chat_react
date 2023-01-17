@@ -3,8 +3,8 @@
     justify-content: space-between;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     transition: background-color 300ms;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .app_logged {
@@ -19,6 +19,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-inline-start: 0px;
+    padding-top: 25px;
 }
 
 .img_li {
@@ -41,19 +45,17 @@
     gap: 10px;
     position: fixed;
     text-align: center;
+    justify-content: center;
     align-items: baseline;
     background-color: azure;
     border-top: 1px solid;
     border-color: rgba(0, 0, 0, 0.169);
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 10px;
     padding-top: 5px;
-    width: 100vw;
+    width: 100%;
 }
 
 .chatRoom {
-    max-height: 81vh;
     overflow-y: scroll;
     display: flex;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
@@ -66,6 +68,7 @@
     padding-inline-start: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-inline-end: 0px;
     width: 100%;
 }
 
@@ -95,7 +98,7 @@
 
 .input {
     margin-top: 10px;
-    width: 86vw;
+    width: 80%;
 }
 
 .header {
@@ -124,4 +127,23 @@
 .signin_button {
     position: fixed;
     right: 20px;
+}
+
+.submit_button {
+    width: 15%;
+}
+
+@media screen and (min-width: 370px) and (max-width: 768px) {
+    .app_start {
+        height: 100%;
+    }
+    .chatRoom {
+        max-height: 100%;
+    }
+    .submit_button {
+        font-size: 1px;
+    }
+    .form {
+        gap: 5px;
+    }
 }

@@ -71,7 +71,7 @@ const ChatRoom = ({ auth }) => {
           onChange={onMessage}
           value={message}
           sx={{
-            borderRadius: 15,
+            borderRadius: 25,
             backgroundColor: 'white'
           }} 
         />
@@ -81,7 +81,7 @@ const ChatRoom = ({ auth }) => {
           type="submit"
           endIcon={<SendIcon />}
           sx={{
-            width: 130,
+        
             height: 50,
             backgroundColor: '#3f87a6'
           }} 
