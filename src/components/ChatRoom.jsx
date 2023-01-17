@@ -61,8 +61,9 @@ const ChatRoom = ({ auth }) => {
       </ul>
       </div>
       <form action="submit" className={style.form} onSubmit={onSubmit}>
+        
         <TextField
-          id="outlined-basic"
+          id="outlined-name"
           label="Enter your message"
           className={style.input}
           variant="outlined"
@@ -72,16 +73,18 @@ const ChatRoom = ({ auth }) => {
           value={message}
           sx={{
             borderRadius: 25,
-            backgroundColor: 'white'
+            backgroundColor: 'white',
+           
           }} 
         />
+        
         <Button
           variant="contained"
           className={style.submit_button}
           type="submit"
           endIcon={<SendIcon />}
           sx={{
-        
+       
             height: 50,
             backgroundColor: '#3f87a6'
           }} 
