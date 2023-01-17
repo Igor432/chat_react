@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chat_react/static/css/main.036d5284.css",
+    "main.css": "/chat_react/static/css/main.17766018.css",
     "main.js": "/chat_react/static/js/main.a4f242bb.js",
     "static/media/charlesdeluvio.jpg": "/chat_react/static/media/charlesdeluvio.fdae24b8354782727d60.jpg",
     "static/media/timi-david.jpg": "/chat_react/static/media/timi-david.ed7271f82245e6675b7b.jpg",
     "static/media/manny-becerra.jpg": "/chat_react/static/media/manny-becerra.150904f8f877618db87a.jpg",
     "index.html": "/chat_react/index.html",
-    "main.036d5284.css.map": "/chat_react/static/css/main.036d5284.css.map",
+    "main.17766018.css.map": "/chat_react/static/css/main.17766018.css.map",
     "main.a4f242bb.js.map": "/chat_react/static/js/main.a4f242bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.036d5284.css",
+    "static/css/main.17766018.css",
     "static/js/main.a4f242bb.js"
   ]
 }
