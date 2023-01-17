@@ -103,7 +103,6 @@
 }
 
 .input {
-    margin-top: 10px;
     width: 80%;
 }
 
@@ -150,7 +149,8 @@
         font-size: 1px;
     }
     .form {
-        padding-top: 0px;
+        padding-top: 3px;
+        padding-bottom: 5px;
         gap: 5px;
         align-items: center;
     }
