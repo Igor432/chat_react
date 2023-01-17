@@ -16,8 +16,9 @@ const connectFireBase = async() => {
 
     const app = initializeApp(firebaseConfig);
     const db = initializeFirestore(app, {useFetchStreams: false,  experimentalForceLongPolling: true })
-
     console.log('FireBaseConnected')
+return db
+    
 }
 
 export default connectFireBase
