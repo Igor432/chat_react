@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chat_react/static/css/main.a3fc0dbe.css",
-    "main.js": "/chat_react/static/js/main.4beb5eb8.js",
+    "main.css": "/chat_react/static/css/main.8bb40ef9.css",
+    "main.js": "/chat_react/static/js/main.eb9f28e9.js",
     "static/media/charlesdeluvio.jpg": "/chat_react/static/media/charlesdeluvio.fdae24b8354782727d60.jpg",
     "static/media/timi-david.jpg": "/chat_react/static/media/timi-david.ed7271f82245e6675b7b.jpg",
     "static/media/manny-becerra.jpg": "/chat_react/static/media/manny-becerra.150904f8f877618db87a.jpg",
     "index.html": "/chat_react/index.html",
-    "main.a3fc0dbe.css.map": "/chat_react/static/css/main.a3fc0dbe.css.map",
-    "main.4beb5eb8.js.map": "/chat_react/static/js/main.4beb5eb8.js.map"
+    "main.8bb40ef9.css.map": "/chat_react/static/css/main.8bb40ef9.css.map",
+    "main.eb9f28e9.js.map": "/chat_react/static/js/main.eb9f28e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fc0dbe.css",
-    "static/js/main.4beb5eb8.js"
+    "static/css/main.8bb40ef9.css",
+    "static/js/main.eb9f28e9.js"
   ]
 }
