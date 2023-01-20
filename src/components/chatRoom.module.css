@@ -180,6 +180,17 @@
     }
     .chat_ul {
         height: 87vh;
+        max-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 1000px) and (max-width: 1600px) {
+    .chatRoom {
+        height: 100%;
+    }
+    .chat_ul {
+        height: 91vh;
+        max-height: 100vh;
     }
 }
 
