@@ -18,9 +18,6 @@ const ChatRoom = ({ auth }) => {
   const messageRef = collection(firestore, 'messages');
   const bottom = useRef();
 
-  console.log(window.innerWidth)
-  console.log(window.innerHeight)
-
   const [messages] = useCollectionData(
     query(messageRef, orderBy('createdAt', 'asc'))
   );
