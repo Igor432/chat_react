@@ -62,8 +62,8 @@
 .chatRoom {
     overflow-y: hidden;
     overflow-x: hidden;
+    height: 80%;
     width: 100%;
-    height: 78vh;
     display: flex;
     background: linear-gradient(0.25turn, #71989B, #ebf8e1, #DEA340);
 }
@@ -75,9 +75,9 @@
     padding-inline-start: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 80px;
     width: 100%;
     height: 100%;
-    padding-bottom: 80px;
 }
 
 .message_li {
@@ -153,12 +153,15 @@
     width: 15%;
 }
 
-@media screen and (min-width: 250px) and (max-width: 768px) {
+@media screen and (min-width: 250px) and (max-width: 759px) {
     .app_start {
         height: 100%;
     }
     .chatRoom {
         height: 100%;
+    }
+    .chat_ul {
+        height: 84vh;
     }
     .submit_button {
         font-size: 1px;
@@ -171,9 +174,12 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1600px) {
+@media screen and (min-width: 760px) and (max-width: 1600px) {
     .chatRoom {
         height: 100%;
+    }
+    .chat_ul {
+        height: 87vh;
     }
 }
 
